@@ -1,3 +1,16 @@
+if !exists('g:vice.colorful')
+    let g:vice.colorful = {}
+endif
+
+if !exists('g:vice.colorful.loaded') || &cp
+    let g:vice.colorful.loaded = 1
+else
+    finish
+endif
+
+let addon_dir = expand('<sfile>:p:h:h')
+let &rtp.=','.addon_dir
+
 call vice#Extend({
     \ 'ft_addons': {
         \ 'css\|sass\|scss\|stylus': [
