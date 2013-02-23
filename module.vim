@@ -16,3 +16,5 @@ if has('gui_running')
 else
    colorscheme hornet
 endif
+
+let g:colors_dir = expand('<sfile>:p:h').'/colors'
