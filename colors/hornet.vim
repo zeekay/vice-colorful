@@ -84,3 +84,8 @@ hi rubyClassVariable guifg=#29AEE3 gui=none
 
 " HTML
 hi htmlItalic   cterm=bold
+
+hi Error            ctermbg=233 ctermfg=red
+hi Todo             guifg=#fec135 gui=none      ctermbg=233 ctermfg=red
+
+hi! link SignColumn Linenr
