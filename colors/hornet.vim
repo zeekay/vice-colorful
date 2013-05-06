@@ -18,7 +18,7 @@ let colors_name = "hornet"
 
 if version >= 700
   hi CursorLine    guibg=#303030 ctermbg=235 cterm=None gui=none
-  hi CursorColumn  guibg=#202020 ctermbg=234
+                    hi CursorColumn  guibg=#202020 ctermbg=234
   hi MatchParen    guifg=#d0ffc0 guibg=#202020 gui=bold ctermfg=157 ctermbg=237 cterm=bold
   hi Pmenu 	   guifg=#ffffff guibg=#202020 ctermfg=255 ctermbg=238
   hi PmenuSel 	   guifg=#000000 guibg=#b1d631 ctermfg=0 ctermbg=148
@@ -85,7 +85,15 @@ hi rubyClassVariable guifg=#29AEE3 gui=none
 " HTML
 hi htmlItalic   cterm=bold
 
+" mostly for Syntastic sign highlighting
 hi Error            ctermbg=233 ctermfg=red
 hi Todo             guifg=#fec135 gui=none      ctermbg=233 ctermfg=red
 
+" vim-gitgutter
 hi! link SignColumn Linenr
+
+let g:indent_guides_auto_colors = 0
+
+" vim-indent-guide
+hi IndentGuidesOdd  ctermbg=235
+hi IndentGuidesEven ctermbg=235

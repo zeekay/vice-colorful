@@ -1,4 +1,11 @@
+highlight clear
+
+if exists("syntax_on")
+  syntax reset
+endif
+
 let g:colors_name = "proton"
+
 hi Normal guibg=#f0f0f0 guifg=#404040 gui=none
 hi Comment guibg=#f0f0f0 guifg=#9098a0 gui=none
 hi ToDo guibg=#f0f0f0 guifg=#9098a0 gui=bold
@@ -59,5 +66,3 @@ hi DiffChange guifg=#7fbdff guibg=#425c78
 hi DiffText guifg=#8ae234 guibg=#4e9a06
 
 hi SpellBad gui=undercurl guisp=#f02020
-
-
