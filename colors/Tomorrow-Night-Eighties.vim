@@ -351,3 +351,11 @@ hi SignColumn ctermbg=236
 let g:indent_guides_auto_colors = 0
 hi IndentGuidesOdd  ctermbg=236
 hi IndentGuidesEven ctermbg=236
+
+" Diff
+hi Folded 	        guibg=#384048 guifg=#a0a8b0 gui=none ctermfg=242 ctermbg=235
+hi FoldColumn       guibg=#384048 guifg=#a0a8b0 gui=none ctermfg=242 ctermbg=235
+hi DiffAdd          ctermbg=233
+hi DiffDelete       ctermbg=233 ctermfg=235
+hi DiffChange       ctermbg=233
+hi DiffText         ctermbg=0
