@@ -352,6 +352,14 @@ let g:indent_guides_auto_colors = 0
 hi IndentGuidesOdd  ctermbg=236
 hi IndentGuidesEven ctermbg=236
 
+" vim-gitgutter
+hi! link SignColumn Linenr
+
+" syntastic
+hi LineNr           ctermbg=234
+hi Error            ctermbg=234 ctermfg=red
+hi Todo             guifg=#fec135 gui=none      ctermbg=234 ctermfg=red
+
 " Diff
 hi Folded 	        guibg=#384048 guifg=#a0a8b0 gui=none ctermfg=242 ctermbg=235
 hi FoldColumn       guibg=#384048 guifg=#a0a8b0 gui=none ctermfg=242 ctermbg=235

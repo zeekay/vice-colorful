@@ -85,15 +85,14 @@ hi rubyClassVariable guifg=#29AEE3 gui=none
 " HTML
 hi htmlItalic   cterm=bold
 
-" mostly for Syntastic sign highlighting
+" syntastic
 hi Error            ctermbg=233 ctermfg=red
 hi Todo             guifg=#fec135 gui=none      ctermbg=233 ctermfg=red
 
 " vim-gitgutter
 hi! link SignColumn Linenr
 
-let g:indent_guides_auto_colors = 0
-
 " vim-indent-guide
+let g:indent_guides_auto_colors = 0
 hi IndentGuidesOdd  ctermbg=235
 hi IndentGuidesEven ctermbg=235
