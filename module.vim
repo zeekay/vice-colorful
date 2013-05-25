@@ -11,10 +11,4 @@ call vice#Extend({
     \ }
 \ })
 
-if has('gui_running')
-   colorscheme minimal
-else
-   colorscheme hornet
-endif
-
 let g:colors_dir = expand('<sfile>:p:h').'/colors'
