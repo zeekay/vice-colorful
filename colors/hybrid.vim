@@ -386,5 +386,5 @@ hi! link diffAdded Special
 " NECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 " THE SOFTWARE.
 
-hi VertSplit        ctermfg=237     ctermbg=236     cterm=none
+hi VertSplit        ctermfg=236     ctermbg=236     cterm=none
 " }}}
