@@ -11,4 +11,4 @@ call vice#Extend({
     \ }
 \ })
 
-let g:colors_dir = expand('<sfile>:p:h').'/colors'
+let g:colors_dir = g:vice.addon_dir.'/colors'
