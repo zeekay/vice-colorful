@@ -349,9 +349,7 @@ exe "hi! qfLineNr"        .s:fg_yellow      .s:bg_none        .s:fmt_none
 "		diffIsA
 "		diffNoEOL
 "		diffCommon
-hi! link diffRemoved Constant
 "		diffChanged
-hi! link diffAdded Special
 "		diffLine
 "		diffSubname
 "		diffComment
@@ -386,5 +384,20 @@ hi! link diffAdded Special
 " NECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 " THE SOFTWARE.
 
-hi VertSplit        ctermfg=236     ctermbg=236     cterm=none
 " }}}
+
+
+" hi! link diffAdded Structure
+" hi! link diffRemoved Constant
+" hi! link diffChanged DiffChange
+
+" hi! link diffAdded DiffAdd
+" hi! link diffRemoved DiffDelete
+" hi! link diffChanged DiffChange
+
+hi VertSplit        ctermfg=236     ctermbg=236     cterm=none
+
+let g:indent_guides_auto_colors = 0
+hi IndentGuidesOdd  ctermbg=236
+hi IndentGuidesEven ctermbg=236
+hi Normal ctermbg=235
