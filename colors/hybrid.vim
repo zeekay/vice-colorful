@@ -325,7 +325,7 @@ exe "hi! Underlined"      .s:fg_blue        .s:bg_none        .s:fmt_none
 
 exe "hi! Ignore"          .s:fg_none        .s:bg_none        .s:fmt_none
 
-exe "hi! Error"           .s:fg_red         .s:bg_none        .s:fmt_undr
+exe "hi! Error"           .s:fg_red         .s:bg_none        .s:fmt_none
 
 exe "hi! Todo"            .s:fg_addfg       .s:bg_none        .s:fmt_none
 
