@@ -6,13 +6,15 @@ call vice#Extend({
         \ 'github:chriskempson/vim-tomorrow-theme',
         \ 'github:jeetsukumaran/vim-nefertiti',
         \ 'github:jnurmine/Zenburn',
+        \ 'github:jonathanfilip/vim-lucius',
         \ 'github:jordwalke/flatlandia',
         \ 'github:nanotech/jellybeans.vim',
+        \ 'github:noahfrederick/vim-hemisu',
+        \ 'github:noahfrederick/vim-noctu',
         \ 'github:reedes/vim-colors-pencil',
         \ 'github:romainl/Apprentice',
         \ 'github:sickill/vim-monokai',
         \ 'github:vim-scripts/saturn.vim',
-        \ 'github:noahfrederick/vim-hemisu',
     \ ],
     \ 'ft_addons': {
         \ 'css\|sass\|scss\|stylus': [
