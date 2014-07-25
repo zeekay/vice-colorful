@@ -27,5 +27,3 @@ call vice#Extend({
         \ 'ColorPrev': ['github:zeekay/vim-color-switch'],
     \ }
 \ })
-
-let g:colors_dir = g:vice.addon_dir.'/colors'
