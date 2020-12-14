@@ -77,7 +77,7 @@ if version >= 703 " Vim 7.3 specific colors
 endif
 
 " syntax highlighting groups
-hi Comment    ctermfg=240 ctermbg=234                               gui=None        guifg=#585858       guibg=#1c1c1c
+hi Comment    ctermfg=242 ctermbg=234                               gui=None        guifg=#585858       guibg=#1c1c1c
 hi Constant   ctermfg=086 ctermbg=234                               gui=None        guifg=#5fffdf       guibg=#1c1c1c
 hi Identifier ctermfg=080 ctermbg=234 cterm=bold                    gui=bold        guifg=#5fdfdf       guibg=#1c1c1c
 hi String     ctermfg=074 ctermbg=234                               gui=None        guifg=#5fafdf       guibg=#1c1c1c
