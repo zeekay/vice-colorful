@@ -18,13 +18,13 @@ hi LineNr       ctermfg=239 ctermbg=234                             gui=None    
 hi NonText      ctermfg=234 ctermbg=234                             gui=None        guifg=#1c1c1c       guibg=#1c1c1c
 
 hi VertSplit    ctermfg=237 ctermbg=235 cterm=none                  gui=None        guifg=#3a3a3a       guibg=#262626
-hi StatusLine   ctermfg=249 ctermbg=235 cterm=underline             gui=underline   guifg=#b2b2b2       guibg=#262626
+hi StatusLine   ctermfg=249 ctermbg=235 cterm=none                  gui=None        guifg=#b2b2b2       guibg=#262626
 hi StatusLineNC ctermfg=243 ctermbg=235 cterm=none                  gui=None        guifg=#767676       guibg=#262626
 
 hi DiffDelete   ctermfg=234 ctermbg=233                             gui=None        guifg=#1c1c1c       guibg=#121212
 hi DiffAdd      ctermbg=236                                         gui=None        guibg=#303030
 hi DiffChange   ctermbg=235                                         gui=None        guibg=#262626
-hi DiffText     ctermfg=161 ctermbg=234 cterm=underline             gui=underline   guifg=#df005f       guibg=#1c1c1c
+hi DiffText     ctermfg=161 ctermbg=234 cterm=none                  gui=underline   guifg=#df005f       guibg=#1c1c1c
 
 hi Cursor       ctermfg=234 ctermbg=250                             gui=None        guifg=#1c1c1c       guibg=#bcbcbc
 
@@ -55,11 +55,11 @@ if version >= 700 " Vim 7.x specific colors
     hi CursorLine   ctermbg=235 cterm=none                          gui=None        guibg=#262626
     hi CursorColumn ctermbg=235 cterm=none                          gui=None        guibg=#262626
 
-    hi MatchParen   ctermfg=196 ctermbg=234 cterm=bold,reverse      gui=bold,reverse    guifg=#ff0000       guibg=#1c1c1c
+    hi MatchParen   ctermfg=076 ctermbg=235 cterm=bold,reverse      gui=bold,reverse    guifg=#82b1cb       guibg=#262626
 
-    hi Tabline      ctermfg=245 ctermbg=235 cterm=underline         gui=underline   guifg=#8a8a8a       guibg=#262626
+    hi Tabline      ctermfg=245 ctermbg=235 cterm=None              gui=underline   guifg=#8a8a8a       guibg=#262626
     hi TablineSel   ctermfg=250 ctermbg=234 cterm=bold              gui=bold        guifg=#bcbcbc       guibg=#1c1c1c
-    hi TablineFill  ctermfg=250 ctermbg=237 cterm=underline         gui=underline   guifg=#bcbcbc       guibg=#3a3a3a
+    hi TablineFill  ctermfg=250 ctermbg=237 cterm=None              gui=underline   guifg=#bcbcbc       guibg=#3a3a3a
 
     hi Pmenu        ctermfg=250 ctermbg=235 cterm=none              gui=None        guifg=#bcbcbc       guibg=#262626
     hi PmenuSel     ctermfg=117 ctermbg=234 cterm=underline         gui=underline   guifg=#87dfff       guibg=#1c1c1c
