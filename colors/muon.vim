@@ -97,7 +97,7 @@ hi Exception  ctermfg=080 ctermbg=234 cterm=bold                    gui=bold    
 hi ALEErrorLine   ctermbg=234
 hi ALEWarningLine ctermbg=234
 hi ALEInfoLine    ctermbg=234
-hi ALEErrorSign   ctermbg=235
+hi ALEErrorSign   ctermbg=235 ctermfg=198 guifg=#ff0087       guibg=#262626
 
 hi ALESignColumnWithErrors ctermbg=234
 hi ALESignColumnWithoutErrors ctermbg=234
