@@ -17,9 +17,9 @@ hi Normal       ctermfg=250 ctermbg=234                             gui=None    
 hi LineNr       ctermfg=239 ctermbg=234                             gui=None        guifg=#4e4e4e       guibg=#1c1c1c
 hi NonText      ctermfg=234 ctermbg=234                             gui=None        guifg=#1c1c1c       guibg=#1c1c1c
 
-hi VertSplit    ctermfg=237 ctermbg=235 cterm=none                  gui=None        guifg=#3a3a3a       guibg=#262626
-hi StatusLine   ctermfg=249 ctermbg=235 cterm=none                  gui=None        guifg=#b2b2b2       guibg=#262626
-hi StatusLineNC ctermfg=243 ctermbg=235 cterm=none                  gui=None        guifg=#767676       guibg=#262626
+hi VertSplit    ctermfg=237 ctermbg=234 cterm=none                  gui=None        guifg=#3a3a3a       guibg=#262626
+hi StatusLine   ctermfg=249 ctermbg=234 cterm=none                  gui=None        guifg=#b2b2b2       guibg=#262626
+hi StatusLineNC ctermfg=243 ctermbg=234 cterm=none                  gui=None        guifg=#767676       guibg=#262626
 
 hi DiffDelete   ctermfg=234 ctermbg=233                             gui=None        guifg=#1c1c1c       guibg=#121212
 hi DiffAdd      ctermbg=236                                         gui=None        guibg=#303030
@@ -47,14 +47,14 @@ hi SpecialKey   ctermfg=214 ctermbg=234                             gui=None    
 hi Title        ctermfg=075 ctermbg=234 cterm=bold                  gui=bold        guifg=#5fafff       guibg=#1c1c1c
 hi Directory    ctermfg=117 ctermbg=234 cterm=bold                  gui=bold        guifg=#87dfff       guibg=#1c1c1c
 
-hi SignColumn   ctermfg=214 ctermbg=235                             gui=None        guifg=#ffaf00       guibg=#262626
+hi SignColumn   ctermfg=214 ctermbg=234                             gui=None        guifg=#ffaf00       guibg=#262626
 
 hi WildMenu     ctermfg=075 ctermbg=235 cterm=bold                  gui=bold        guifg=#5fafff       guibg=#262626
 
 if version >= 700 " Vim 7.x specific colors
-    hi CursorLine   ctermbg=235 cterm=none                          gui=None        guibg=#262626
-    hi CursorLineNr   ctermbg=235 cterm=none                          gui=None        guibg=#262626
-    hi CursorColumn ctermbg=235 cterm=none                          gui=None        guibg=#262626
+    hi CursorLine   ctermbg=234 cterm=none                          gui=None        guibg=#262626
+    hi CursorLineNr   ctermbg=234 cterm=none                          gui=None        guibg=#262626
+    hi CursorColumn ctermbg=234 cterm=none                          gui=None        guibg=#262626
 
     hi MatchParen   ctermfg=076 ctermbg=235 cterm=bold,reverse      gui=bold,reverse    guifg=#82b1cb       guibg=#262626
 
@@ -74,7 +74,7 @@ if version >= 700 " Vim 7.x specific colors
 endif
 
 if version >= 703 " Vim 7.3 specific colors
-    hi ColorColumn ctermbg=235                                      gui=None        guibg=#262626
+    hi ColorColumn ctermbg=234                                      gui=None        guibg=#262626
 endif
 
 " syntax highlighting groups
@@ -92,5 +92,14 @@ hi Number     ctermfg=086 ctermbg=234                               gui=None    
 hi Ignore     ctermfg=214 ctermbg=234                               gui=None        guifg=#ffaf00       guibg=#1c1c1c
 hi Todo       ctermfg=196 ctermbg=234                               gui=None        guifg=#ff0000       guibg=#1c1c1c
 hi Exception  ctermfg=080 ctermbg=234 cterm=bold                    gui=bold        guifg=#5fdfdf       guibg=#1c1c1c
+
+" Line when ALE highlights
+hi ALEErrorLine   ctermbg=234
+hi ALEWarningLine ctermbg=234
+hi ALEInfoLine    ctermbg=234
+hi ALEErrorSign   ctermbg=235
+
+hi ALESignColumnWithErrors ctermbg=234
+hi ALESignColumnWithoutErrors ctermbg=234
 
 "vim: sw=4
