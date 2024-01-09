@@ -81,7 +81,7 @@ endif
 hi Comment    ctermfg=242 ctermbg=234                               gui=None        guifg=#585858       guibg=#1c1c1c
 hi Constant   ctermfg=086 ctermbg=234                               gui=None        guifg=#5fffdf       guibg=#1c1c1c
 hi Identifier ctermfg=080 ctermbg=234 cterm=bold                    gui=bold        guifg=#5fdfdf       guibg=#1c1c1c
-hi String     ctermfg=074 ctermbg=234                               gui=None        guifg=#5fafdf       guibg=#1c1c1c
+hi String     ctermfg=074 ctermbg=234 cterm=none                    gui=None        guifg=#5fafdf       guibg=#1c1c1c
 hi Statement  ctermfg=159 ctermbg=234 cterm=none                    gui=None        guifg=#afffff       guibg=#1c1c1c
 hi PreProc    ctermfg=122 ctermbg=234                               gui=None        guifg=#87ffdf       guibg=#1c1c1c
 hi Function   ctermfg=121 ctermbg=234 cterm=bold                    gui=bold        guifg=#87ffaf       guibg=#1c1c1c
@@ -97,7 +97,7 @@ hi Exception  ctermfg=080 ctermbg=234 cterm=bold                    gui=bold    
 hi ALEErrorLine   ctermbg=234
 hi ALEWarningLine ctermbg=234
 hi ALEInfoLine    ctermbg=234
-hi ALEErrorSign   ctermbg=235 ctermfg=198 guifg=#ff0087       guibg=#262626
+hi ALEErrorSign   ctermbg=235 ctermfg=198 gui=None guifg=#ff0087       guibg=#262626
 
 hi ALESignColumnWithErrors ctermbg=234
 hi ALESignColumnWithoutErrors ctermbg=234
